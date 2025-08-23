@@ -15,13 +15,13 @@ void	*ft_memset(void *s, int c, size_t n)
 	return (s);
 }
 
-void    *ft_calloc(size_t count, size_t size)
+void	*ft_calloc(size_t count, size_t size)
 {
-    void *arr;
+	void	*arr;
 
-    arr = malloc(count * size);
-    if (!arr)
-        return (NULL);
-    ft_memset(arr, 0, count * size);
-    return (arr);
+	arr = malloc(count * size);
+	if (!arr)
+		return (NULL);
+	ft_memset(arr, 0, count * size);
+	return (arr);
 }

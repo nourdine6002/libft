@@ -2,8 +2,8 @@
 
 char	*ft_strrchr(const char *s, int c)
 {
-	int			i;
-	int			len;
+	int				i;
+	int				len;
 	unsigned char	*p;
 
 	len = ft_strlen(s);
