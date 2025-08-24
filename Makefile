@@ -10,7 +10,7 @@ all : $(NAME)
 $(NAME) : $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 
-%.o : %.c include/libft.h
+%.o : %.c libft.h
 	$(GCC) $(GFALGE) -c $< -o $@
 
 clean :
